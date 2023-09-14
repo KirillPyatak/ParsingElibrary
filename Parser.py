@@ -15,7 +15,7 @@ def get_source_html(driver, url=None):
         print(ex)
 
 def main():
-    service = Service(executable_path='C:/Users/user/Downloads/chromedriver_win32 (1)/chromedriver.exe')
+    service = Service(executable_path='C:/Users/user/Downloads/chromedriver_win32/chromedriver.exe')
     options = Options()
 
     # Включаем headless-режим с использованием add_argument
